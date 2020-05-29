@@ -44,9 +44,9 @@ const ToggleContainer = styled.div`
 function Introduction() {
   return (
     <IntroductionContainer>
-      <ToggleContainer>
+      {/* <ToggleContainer>
         <img src={Toggle} />
-      </ToggleContainer>
+      </ToggleContainer> */}
       <IntroText />
       <Icons />
       <ButtonContainer>
