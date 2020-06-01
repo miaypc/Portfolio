@@ -8,6 +8,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardActions from "@material-ui/core/CardActions";
 import _Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
+import Color from "../Utils/Color";
 
 const Card = styled(_Card)`
   width: 500px;
@@ -18,11 +19,11 @@ const Card = styled(_Card)`
 `;
 
 const TypographyTitle = styled(_Typography)`
-  color: #072f44;
+  color: ${Color.Navy};
   padding-bottom: 10px;
 `;
 const TypographyText = styled(_Typography)`
-  color: #072f44;
+  color: ${Color.Navy};
   padding-bottom: 10px;
 `;
 
@@ -30,7 +31,7 @@ function Cards(props) {
   return (
     <Card
       style={{
-        backgroundColor: "#f0f0f0",
+        backgroundColor: `${Color.Grey}`,
         boxShadow:
           "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
       }}
@@ -51,7 +52,7 @@ function Cards(props) {
             Technologies I used:
             <span
               style={{
-                color: "#da611e",
+                color: `${Color.Orange}`,
               }}
             >
               {props.tech}
@@ -65,8 +66,8 @@ function Cards(props) {
           <a href={props.demo} style={{ textDecoration: "none" }}>
             <Button
               style={{
-                backgroundColor: "#da611e",
-                color: "#072f44",
+                backgroundColor: `${Color.Orange}`,
+                color: `${Color.Navy}`,
               }}
             >
               Demo
@@ -79,8 +80,8 @@ function Cards(props) {
         <a href={props.github} style={{ textDecoration: "none" }}>
           <Button
             style={{
-              backgroundColor: "#edd369",
-              color: "#072f44",
+              backgroundColor: `${Color.Yellow}`,
+              color: `${Color.Navy}`,
               textDecoration: "none",
             }}
           >

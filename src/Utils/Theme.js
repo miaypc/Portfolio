@@ -8,8 +8,8 @@ export const DarkTheme = {
 };
 
 export const LightTheme = {
-  backgroundColor: `${Color.Grey}`,
-  text: `${Color.Black}`,
-  icon: `${Color.Blue}`,
-  mia: `${Color.Blue}`,
+  backgroundColor: `${Color.White}`,
+  text: `${Color.Navy}`,
+  icon: `${Color.yellow}`,
+  mia: `${Color.yellow}`,
 };

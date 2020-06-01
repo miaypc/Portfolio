@@ -2,21 +2,30 @@ import React from "react";
 import styled from "styled-components";
 import Cards from "./Cards";
 import { ProjectList } from "./ProjectList";
+import Color from "../Utils/Color";
 
 const ProjectContainer = styled.div`
   justify-content: space-evenly;
   display: flex;
   margin-top: 1vh;
   flex-wrap: wrap;
-  padding-bottom: 10vh;
+  padding-bottom: 20vh;
 `;
+
 const H1 = styled.h1`
   letter-spacing: 1px;
-  color: #edd369;
+  color: ${Color.Yellow};
   text-align: center;
   margin-bottom: 15vh;
-  font-size: 50px;
+  font-size: 55px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  @media (prefers-color-scheme: light) {
+    text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.1);
+    color: ${Color.Daisy};
+  }
+  @media (max-width: 700px) {
+    font-size: 40px;
+  }
 `;
 
 function Project() {

@@ -5,15 +5,23 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Color from "../Utils/Color";
 
 const LinksContainer = styled.div`
   margin-top: 2vh;
   margin-bottom: 2vh;
 `;
 const FontAwesomeIcon = styled(_FontAwesomeIcon)`
-  color: #edd369;
+  color: ${Color.Yellow};
   font-size: 50px;
   margin: 50px;
+  @media (prefers-color-scheme: light) {
+    color: ${Color.Daisy};
+  }
+  @media (max-width: 700px) {
+    margin: 20px;
+    font-size: 35px;
+  }
 `;
 
 function Icons() {

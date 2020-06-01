@@ -1,5 +1,15 @@
 export const ProjectList = [
   {
+    name: "Laces-Up",
+    img: require("../Img/LacesUp.png"),
+    about: "Laces-Up is an online shoe-laces shop.",
+    description:
+      "This is a 2 days hackthon project for the client. Per request, we built user page and back-office, so that users can see how it look like for different laces on different colors of shoes, and the back-office can add more color for shoes and patterns for laces. I worked as a back-end develper",
+    tech: " Node.js, Express, MangoDB, Postman, React.js, Heroku ect",
+    github: "https://github.com/miaypc/laces_back",
+    demo: "https://hardcore-austin-68e6f2.netlify.app/",
+  },
+  {
     name: "BEhERe",
     img: require("../Img/Behere.png"),
     about:
@@ -27,18 +37,18 @@ export const ProjectList = [
     about:
       "Workademy is an oline course website to help teachers create classes for students",
     description:
-      "Workademy is the last project which is a client project. I designed and builded this app with 2 teammates worked as a front-end developer ",
+      "Workademy is the last project which is a client project. I designed and builded this app with 2 teammates worked as a front-end developer.",
     tech: " Styled Components, Redux, React.js, Material UI and SCSS ect",
     github: "https://github.com/chudaol/workademy",
     demo: "",
   },
-  {
-    name: "Natsu ko",
-    img: require("../Img/Natsuko.png"),
-    about: "Natsu ko is an interior design company's website",
-    description: "This is the first project in the program.",
-    tech: " HTML, CSS and Bootstrap ect",
-    github: "https://github.com/miaypc/Natsuko",
-    demo: "https://modest-pare-4a623f.netlify.com/",
-  },
+  //{
+  //   name: "Natsu ko",
+  //   img: require("../Img/Natsuko.png"),
+  //   about: "Natsu ko is an interior design company's website",
+  //   description: "This is the first project in the program.",
+  //   tech: " HTML, CSS and Bootstrap ect",
+  //   github: "https://github.com/miaypc/Natsuko",
+  //   demo: "https://modest-pare-4a623f.netlify.com/",
+  // },
 ];

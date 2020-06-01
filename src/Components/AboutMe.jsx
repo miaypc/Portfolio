@@ -1,24 +1,41 @@
 import React from "react";
 import styled from "styled-components";
+import Color from "../Utils/Color";
 
 const H1 = styled.h1`
   letter-spacing: 1px;
-  color: #edd369;
+  color: ${Color.Yellow};
   text-align: center;
   margin-bottom: 10vh;
-  font-size: 50px;
+  font-size: 55px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+
+  @media (prefers-color-scheme: light) {
+    text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.1);
+    color: ${Color.Daisy};
+  }
+  @media (max-width: 700px) {
+    font-size: 40px;
+  }
 `;
 
 const P = styled.p`
   letter-spacing: 1px;
-  color: #ffffff;
+  color: ${Color.White};
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   margin-left: 15vw;
   margin-right: 15vw;
   font-size: 20px;
   line-height: 150%;
   margin-bottom: 25vh;
+
+  @media (prefers-color-scheme: light) {
+    color: ${Color.Navy};
+    text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.1);
+  }
+  @media (max-width: 700px) {
+    font-size: 15px;
+  }
 `;
 
 function AboutMe() {
@@ -49,7 +66,7 @@ function AboutMe() {
         <br />
         <br />
         I've also worked with clients in the program during our last project -
-        Workademy and two day Hacthon project - LacesUp.
+        Workademy and two days Hackthon project - LacesUp.
       </P>
     </div>
   );
