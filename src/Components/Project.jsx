@@ -9,7 +9,7 @@ const ProjectContainer = styled.div`
   display: flex;
   margin-top: 1vh;
   flex-wrap: wrap;
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
 `;
 
 const H1 = styled.h1`

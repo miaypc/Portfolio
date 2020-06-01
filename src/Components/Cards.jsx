@@ -16,6 +16,9 @@ const Card = styled(_Card)`
   margin-right: 5vw;
   margin-bottom: 3vw;
   border: 1px solid #f0f0f0;
+  @media (max-width: 700px) {
+    margin-bottom: 8vw;
+  }
 `;
 
 const TypographyTitle = styled(_Typography)`
