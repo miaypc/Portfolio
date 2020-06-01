@@ -5,7 +5,7 @@ import Color from "../Utils/Color";
 const IntroTextContainer = styled.div`
   text-align: center;
   color: ${Color.White};
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   margin-top: 5vh;

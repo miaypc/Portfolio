@@ -19,7 +19,7 @@ const H1 = styled.h1`
   margin-bottom: 15vh;
   font-size: 55px;
   //text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   @media (prefers-color-scheme: light) {
     text-shadow: none;
     color: ${Color.Daisy};
