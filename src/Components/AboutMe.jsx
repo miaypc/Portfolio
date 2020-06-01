@@ -8,10 +8,10 @@ const H1 = styled.h1`
   text-align: center;
   margin-bottom: 10vh;
   font-size: 55px;
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 
   @media (prefers-color-scheme: light) {
-    text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.1);
+    text-shadow: none;
     color: ${Color.Daisy};
   }
   @media (max-width: 700px) {
@@ -22,7 +22,7 @@ const H1 = styled.h1`
 const P = styled.p`
   letter-spacing: 1px;
   color: ${Color.White};
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   margin-left: 15vw;
   margin-right: 15vw;
   font-size: 20px;
@@ -31,7 +31,7 @@ const P = styled.p`
 
   @media (prefers-color-scheme: light) {
     color: ${Color.Navy};
-    text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.1);
+    text-shadow: none;
   }
   @media (max-width: 700px) {
     font-size: 15px;

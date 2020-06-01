@@ -5,14 +5,14 @@ import Color from "../Utils/Color";
 const IntroTextContainer = styled.div`
   text-align: center;
   color: ${Color.White};
-  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   margin-top: 5vh;
 
   @media (prefers-color-scheme: light) {
     color: ${Color.Navy};
-    text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.1);
+    text-shadow: none;
   }
 `;
 const H1 = styled.h1`
