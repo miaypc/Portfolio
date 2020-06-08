@@ -10,6 +10,17 @@ export const ProjectList = [
     demo: "https://hardcore-austin-68e6f2.netlify.app/",
   },
   {
+    name: "Workademy",
+    img: require("../Img/Workademy.png"),
+    about:
+      "Workademy is an oline course website to help teachers create classes for students",
+    description:
+      "Workademy is the last project which is a client project. I designed and builded this app with 2 teammates worked as a front-end developer.",
+    tech: " Styled Components, Redux, React.js, Material UI and SCSS ect",
+    github: "https://github.com/chudaol/workademy",
+    demo: "",
+  },
+  {
     name: "BEhERe",
     img: require("../Img/Behere.png"),
     about:
@@ -32,23 +43,13 @@ export const ProjectList = [
     demo: "https://zen-shaw-5af657.netlify.com/",
   },
   {
-    name: "Workademy",
-    img: require("../Img/Workademy.png"),
-    about:
-      "Workademy is an oline course website to help teachers create classes for students",
+    name: "Natsu-ko",
+    img: require("../Img/Natsuko.png"),
+    about: "Natsu-ko is the website for an interior design company",
     description:
-      "Workademy is the last project which is a client project. I designed and builded this app with 2 teammates worked as a front-end developer.",
-    tech: " Styled Components, Redux, React.js, Material UI and SCSS ect",
-    github: "https://github.com/chudaol/workademy",
-    demo: "",
+      "This is the first project I've completed in the program. It started the first week after the program and took half month",
+    tech: " HTML, CSS and Bootstrap ect",
+    github: "https://github.com/miaypc/Natsuko",
+    demo: "https://modest-pare-4a623f.netlify.com/",
   },
-  //{
-  //   name: "Natsu ko",
-  //   img: require("../Img/Natsuko.png"),
-  //   about: "Natsu ko is an interior design company's website",
-  //   description: "This is the first project in the program.",
-  //   tech: " HTML, CSS and Bootstrap ect",
-  //   github: "https://github.com/miaypc/Natsuko",
-  //   demo: "https://modest-pare-4a623f.netlify.com/",
-  // },
 ];
