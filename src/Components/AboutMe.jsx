@@ -27,8 +27,7 @@ const P = styled.p`
   margin-right: 15vw;
   font-size: 20px;
   line-height: 150%;
-  margin-bottom: 25vh;
-
+  margin-bottom: 3vh;
   @media (prefers-color-scheme: light) {
     color: ${Color.Navy};
     text-shadow: none;
@@ -40,33 +39,48 @@ const P = styled.p`
 
 function AboutMe() {
   return (
-    <div>
+    <div style={{ marginBottom: "20vh" }}>
       <H1>About Me</H1>
       <P>
         I am a committed and eager learner focused on becoming an accomplished
         software developer.
-        <br />
-        <br />
-        My programming journey:
-        <br />
-        <br />
+      </P>
+      <P>My programming journey:</P>
+      <P>
         In August 2019, I developed a strong interest in programming while
         playing with the Swift Playgrounds app on my iPad. I applied to the
-        Introductory Web Development program of FrauenLoop in September 2019.
-        The sessions ran 3 hours per week for 12 weeks at Microsoft Berlin.
-        During the program I learned general technical knowledge and started to
-        code my first website in HTML, CSS, and Bootstrap.
-        <br />
-        <br />
+        Introductory Web Development program of
+        <a
+          href="https://www.frauenloop.org/"
+          style={{ marginRight: "5px", marginLeft: "5px" }}
+        >
+          FrauenLoop
+        </a>
+        in September 2019. The sessions ran three hours per week for 12 weeks at
+        Microsoft Berlin. During the program I learned general technical
+        knowledge and started to code my first website using HTML, CSS, and
+        Bootstrap.
+      </P>
+      <P>
         Thanks to these most basic coding skills, I passed the challenges and
-        interviews for the scholarship of The 5-month Full Stack Web Development
-        program in Wild Code School in November 2019. This program started in
-        Jaunary and covered JavaScript, NodeJS, Git, GitHub, Scrum, Express,
-        Material UI React.js, MySQL, MongoDB etc.
-        <br />
-        <br />
-        I've also worked with clients in the program during our last project -
-        Workademy and two days Hackthon project - LacesUp.
+        interviews to earn a full scholarship to attend a five-month Full Stack
+        Web Development program at
+        <a
+          href="https://www.wildcodeschool.com/en-GB"
+          style={{ marginRight: "5px", marginLeft: "5px" }}
+        >
+          Wild Code School (WCS)
+        </a>
+        in November 2019. This program started in January and covered
+        JavaScript, Node.js, SCSS, styled-components, Material UI, React.js,
+        Git, GitHub, Express, MySQL, Postman, MongoDB, and Scrum.
+      </P>
+      <P>
+        At WCS, I gained a lot of experience working with external clients. I
+        helped LacesUp extend their e-commerce website to show previews of how
+        their shoelaces would look on shoes. I also worked with Workademy on a
+        two-month project in which I helped them build an online course-building
+        website for teachers.
       </P>
     </div>
   );

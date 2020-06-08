@@ -49,13 +49,28 @@ function Cards(props) {
           <TypographyTitle style={{ fontSize: "30px" }}>
             {props.name}
           </TypographyTitle>
-          <TypographyText>{props.about}</TypographyText>
-          <TypographyText>{props.description}</TypographyText>
+          <TypographyText>
+            <a href={props.companyLink} style={{ marginRight: "5px" }}>
+              {props.name}
+            </a>
+            {props.about}
+          </TypographyText>
+          <TypographyText>
+            {props.description}
+            <a
+              href={props.apiLink}
+              style={{ marginRight: "5px", marginLeft: "5px" }}
+            >
+              {props.api}
+            </a>
+            {props.description2}
+          </TypographyText>
           <TypographyText>
             Technologies I used:
             <span
               style={{
                 color: `${Color.Orange}`,
+                marginLeft: "1vh",
               }}
             >
               {props.tech}

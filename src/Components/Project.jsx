@@ -44,6 +44,10 @@ function Project() {
               image={e.img}
               github={e.github}
               demo={e.demo}
+              companyLink={e.companyLink}
+              api={e.api}
+              apiLink={e.apiLink}
+              description2={e.description2}
             />
           );
         })}
